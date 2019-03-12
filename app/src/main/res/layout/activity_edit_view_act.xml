@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="15dp"
+    tools:context=".EditView_act">
+
+    <EditText
+        android:id="@+id/et_1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="15dp"
+        android:padding="10dp"
+        android:background="@drawable/et_shape"
+        android:hint="用户名"
+        android:inputType="text"
+        android:drawableLeft="@drawable/log_user"
+        android:drawablePadding="5dp"
+        />
+
+    <EditText
+        android:id="@+id/et_2"
+        android:layout_below="@id/et_1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="15dp"
+        android:padding="10dp"
+        android:background="@drawable/et_shape"
+        android:hint="数字密码"
+        android:lines="1"
+        android:inputType="numberPassword"
+        android:drawableLeft="@drawable/log_pass"
+        android:drawablePadding="5dp"
+        />
+
+    <Button
+        android:id="@+id/log_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@id/et_2"
+        android:layout_centerInParent="true"
+        android:text="登录"
+        android:lines="1"
+        android:textColor="#ffffff"
+        android:background="@drawable/inbt4"
+        />
+
+</RelativeLayout>

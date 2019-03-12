@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".text_v">
+
+    <TextView
+        android:id="@+id/tx_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="晚安！"
+        android:textColor="#FF0033"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/tx_2"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:ellipsize="end"
+        android:maxLines="1"
+
+        android:text="nihao！"
+        android:textColor="#FF0033"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/tx_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:drawableRight="@drawable/arrow"
+        android:drawablePadding="10dp"
+
+        android:text="select:"
+        android:textColor="#FF0033"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/tx_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="selected"
+        android:textColor="#FF0033"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/tx_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="selected"
+        android:textColor="#FF0033"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/tx_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="哈哈哈哈哈哈哈哈哈啊哈哈哈哈哈"
+        android:textColor="#FF0033"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/bt_bk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="back"/>
+
+</LinearLayout>

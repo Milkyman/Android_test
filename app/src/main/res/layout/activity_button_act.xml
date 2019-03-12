@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Button_act">
+
+    <Button
+        android:id="@+id/inbt_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="按钮一"
+        android:background="#EEEE00"/>
+
+    <Button
+        android:id="@id/inbt_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inbt_1"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/inbt2"
+        android:text="按钮二"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@id/inbt_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inbt_2"
+        android:layout_marginTop="10dp"
+        android:text="按钮三"
+        android:background="@drawable/inbt3"/>
+
+    <Button
+        android:id="@+id/inbt_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inbt_3"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/inbt4"
+        android:text="按钮四"
+        android:textColor="#ffffff"/>
+
+</RelativeLayout>
